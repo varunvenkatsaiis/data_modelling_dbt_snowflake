@@ -1,0 +1,8 @@
+version: 1
+
+sources:
+  - name: p_finance_table
+    database: RAW_DATA_DB
+    schema: FINANCIAL_DATA
+    tables:
+      - name: personal_finance

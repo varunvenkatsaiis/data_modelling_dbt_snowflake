@@ -1,0 +1,10 @@
+version: 1
+
+sources:
+  - name: fact_dimension_table
+    database: RAW_DATA_DB
+    schema: FINANCIAL_DATA
+    tables:
+      - name: dim_city_tier
+      - name: dim_occupation
+      - name: fact_finance
